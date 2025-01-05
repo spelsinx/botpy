@@ -3,7 +3,7 @@ from telegram import Update, ChatPermissions
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
 
 # Укажите ваш токен бота
-TOKEN = "7460356226:AAFBod31cHu_FxpBa9AwiQS0xkVnPEDUYnM"
+TOKEN = process.env.token
 
 # Список запрещенных фраз
 FORBIDDEN_PHRASES = [
